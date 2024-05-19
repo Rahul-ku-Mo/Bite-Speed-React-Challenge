@@ -1,8 +1,33 @@
-# React + Vite
+# BiteSpeed React Challenge : https://bite-speed-react-challenge.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack (Fully Frontend):
+- React - (Design Pattern: React Context)
+- Vite - (Bundler)
+- TailwindCSS (utility-first CSS framework)
 
-Currently, two official plugins are available:
+## How to Run:
+  ```
+  git clone https://github.com/Rahul-ku-Mo/Bite-Speed-React-Challenge.git
+  yarn
+  yarn dev
+  ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Components
+- Flow Chart Component (Made using React-Flow)
+- NodePanel and SettingPanel Component (Simple textArea component using TailwindCSS)
+- ActionPanel (Simple save button for Flow)
+- Toaster for notifications (Sonner)
+
+## Optimizations
+- useCallback for memoizing the submit and click functions
+- useMemo for computing edgeless nodes
+- Moving some functions out of the component. So that these functions won't be created while rerendering.
+
+## Documentation and Features:
+1. Drag and Drop: We can add new nodes to the flow chart by dragging and dropping. The type of the new node is determined by the application/reactflow data in the drag event.
+2. Node Creation: We can create Nodes by dragging from the NodePanel on the flow Background to create new Nodes. Since the current type is Message Node (scalable to different types as well)
+3. Edge Creation: We can create edges between nodes by clicking and dragging from one node to another. 
+4. Cycle Detection: Edges cannot be created between a node and itself, and edges cannot be created in the reverse direction of an existing edge.
+5. Toast Notification: While saving the flow or creating the new nodes , a toast notification pops up.
+
+
