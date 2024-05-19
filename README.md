@@ -25,9 +25,10 @@
 
 ## Documentation and Features:
 1. Drag and Drop: We can add new nodes to the flow chart by dragging and dropping. The type of the new node is determined by the application/reactflow data in the drag event.
-2. Node Creation: We can create Nodes by dragging from the NodePanel on the flow Background to create new Nodes. Since the current type is Message Node (scalable to different types as well)
-3. Edge Creation: We can create edges between nodes by clicking and dragging from one node to another. 
-4. Cycle Detection: Edges cannot be created between a node and itself, and edges cannot be created in the reverse direction of an existing edge.
-5. Toast Notification: While saving the flow or creating the new nodes , a toast notification pops up.
+2. Node Creation: We can create Nodes by dragging from the NodePanel on to the flow Background to create new Nodes. The current type is Message Node but it is scalable to different types as well.
+3. Node Action: We can change the text message of the node by clicking on the node. A settingsPanel show in the right sidebar.
+4. Edge Creation: We can create edges between nodes by clicking and dragging from one node to another. 
+5. Cycle Detection: Edges cannot be created between a node and itself, and edges cannot be created in the reverse direction of an existing edge.
+6. Toast Notification: While saving the flow or creating the new nodes , a toast notification pops up.
 
 
