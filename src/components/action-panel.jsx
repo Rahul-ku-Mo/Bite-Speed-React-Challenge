@@ -26,11 +26,14 @@ const ActionPanel = () => {
   }, [edgelessNodes.length]);
 
   return (
-    <div className=" w-full p-2 bg-zinc-100 text-sm relative z-20 flex justify-end px-10">
+    <div className=" w-full p-2 bg-zinc-100 text-sm relative z-20 flex justify-between px-2">
+      <div className="text-lg font-black tracking-tighter uppercase first-letter:text-2xl">
+        BiteSpeed
+      </div>
       <button
         disabled={nodes.length === 0}
         onClick={handleClick}
-        className="text-sm tracking-tighter disabled:opacity-50 disabled:cursor-not-allowed font-medium border-2 border-blue-800 py-1 rounded-md text-blue-800 cursor-pointer  px-4"
+        className="text-sm tracking-tighter mr-10 disabled:opacity-50 disabled:cursor-not-allowed font-medium border-2 border-blue-800 py-1 rounded-md text-blue-800 cursor-pointer  px-4"
       >
         Save Changes
       </button>

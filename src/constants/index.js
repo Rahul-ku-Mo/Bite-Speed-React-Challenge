@@ -1,23 +1,23 @@
 export const edges = [
   {
-    source: "dndnode_0",
+    source: "dndnode_a_0",
     sourceHandle: null,
-    target: "dndnode_1",
+    target: "dndnode_a_1",
     targetHandle: null,
-    id: "reactflow__edge-dndnode_0-dndnode_1",
+    id: "reactflow__edge-dndnode_a_0-dndnode_a_1",
   },
   {
-    source: "dndnode_1",
+    source: "dndnode_a_1",
     sourceHandle: null,
-    target: "dndnode_2",
+    target: "dndnode_a_2",
     targetHandle: null,
-    id: "reactflow__edge-dndnode_1-dndnode_2",
+    id: "reactflow__edge-dndnode_a_1-dndnode_a_2",
   },
 ];
 
 export const nodes = [
   {
-    id: "dndnode_0",
+    id: "dndnode_a_0",
     type: "messageNode",
     position: {
       x: 224,
@@ -30,7 +30,7 @@ export const nodes = [
     height: 64,
   },
   {
-    id: "dndnode_1",
+    id: "dndnode_a_1",
     type: "messageNode",
     position: {
       x: 628,
@@ -49,7 +49,7 @@ export const nodes = [
     dragging: false,
   },
   {
-    id: "dndnode_2",
+    id: "dndnode_a_2",
     type: "messageNode",
     position: {
       x: 802,
